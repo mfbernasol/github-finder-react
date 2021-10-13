@@ -15,14 +15,10 @@ Navbar.defaultProps = {
   icon: 'fab fa-github',
 };
 
-Navbar.defaultProps = {
+Navbar.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
 };
 
-UserItem.PropTypes = {
-    user: PropTypes.object.isRequired,
-    icon: PropTypes.object.isRequired,
-}
 
 export default Navbar;
